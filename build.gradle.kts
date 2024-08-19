@@ -27,6 +27,9 @@ subprojects {
 
     repositories {
         mavenCentral()
+        maven("https://jitpack.io") {
+            name = "jitpack"
+        }
         maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/") {
             name = "spigotmc-repo"
         }

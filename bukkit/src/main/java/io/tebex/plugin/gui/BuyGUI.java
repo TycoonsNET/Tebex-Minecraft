@@ -78,7 +78,8 @@ public class BuyGUI {
                     open(player);
                 }));
             }
-        } else if(category instanceof SubCategory) {
+        }
+        else if(category instanceof SubCategory) {
             SubCategory subCategory = (SubCategory) category;
 
             subListingGui.updateTitle(config.getString("gui.menu.sub-category.title")
